@@ -1,5 +1,5 @@
 /* ============================================================
-   Vital Movers & Cleaning Services
+   Vital Movers
    Shared stylesheet - Professional blue + white theme
    ============================================================ */
 
@@ -245,15 +245,6 @@ h3 { font-size: 20px; margin-bottom: 8px; }
 }
 .page-hero.moving {
   background: linear-gradient(135deg, rgba(10, 37, 64, .93) 0%, rgba(11, 83, 148, .9) 100%), url("../img/moving.jpg") center / cover no-repeat;
-}
-.page-hero.cleaning {
-  background: linear-gradient(135deg, rgba(10, 37, 64, .9) 0%, rgba(21, 101, 192, .88) 100%), url("../img/cleaning.jpg") center / cover no-repeat;
-}
-.page-hero.fumigation {
-  background: linear-gradient(135deg, rgba(10, 37, 64, .9) 0%, rgba(30, 90, 110, .88) 100%), url("../img/fumigation.jpg") center / cover no-repeat;
-}
-.page-hero.lawn {
-  background: linear-gradient(135deg, rgba(10, 37, 64, .88) 0%, rgba(14, 88, 72, .86) 100%), url("../img/lawn.jpg") center / cover no-repeat;
 }
 .page-hero.about {
   background: linear-gradient(135deg, rgba(10, 37, 64, .92) 0%, rgba(11, 83, 148, .9) 100%), url("../img/moving-2.jpg") center / cover no-repeat;

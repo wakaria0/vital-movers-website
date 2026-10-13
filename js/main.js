@@ -1,5 +1,5 @@
 /* ============================================================
-   Vital Movers & Cleaning Services - shared interactions
+   Vital Movers - shared interactions
    ============================================================ */
 
 (function () {
@@ -48,7 +48,7 @@
       var details = quoteForm.elements["details"].value.trim();
 
       var text =
-        "Hello Vital Movers & Cleaning Services!" +
+        "Hello Vital Movers!" +
         "\n\nI'd like a quote." +
         (name ? "\nName: " + name : "") +
         (service ? "\nService: " + service : "") +
@@ -66,11 +66,4 @@
 
   // Initialize quote forms on all pages
   initQuoteForm("quote-form"); // contact.html
-
-  // Add quote forms to service pages if they don't exist
-  document.addListener || document.addEventListener
-  // Check for service page quote form variants
-  if (document.getElementById("service-quote-form")) {
-    initQuoteForm("service-quote-form");
-  }
 })();
